@@ -1,0 +1,50 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+background-color: #fff;}
+
+h1{
+background-color: DarkCyan;}
+
+h3{
+background-color:  #ee3e80;}
+
+h4{
+background-color: #ee5d80;}
+
+strong{
+    text-decoration: underline;
+}
+p {
+    background-color: rgb(173, 216, 230); /* Sets the background color */
+    padding: 5px;              /* Sets padding on all sides */
+    border: 1px solid rgb(173, 216, 230); /* Optional: adds a border for visual clarity */
+}
+.padded-list li {
+    padding: 10px; /* Applies 10px padding to top, right, bottom, and left */
+    /* Or, for specific sides: */
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    background-color:rgb(173, 216, 230); /* Optional: for visual clarity of padding */
+    margin-bottom: 10px; /* Optional: adds space between list items */
+}
+
+
+dd {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+
+dd {
+min-height: .5px;
+max-heigh: .9px;
+padding: 3px;
+background-color: #elddda;}
+
+
+dd{
+    overflow: scroll;
+}

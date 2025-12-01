@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+background-color: #fff;}
+
+h1{
+background-color: DarkCyan;}
+
+h3{
+background-color:  #ee3e80;}
+
+h4{
+background-color: #ee5d80;}
+
+strong{
+    text-decoration: underline;
+}
+p {
+    background-color: lightblue; /* Sets the background color */
+    padding: 20px;              /* Sets padding on all sides */
+    border: 1px solid steelblue; /* Optional: adds a border for visual clarity */
+}
+
+
+dd {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+dd {
+min-height: .5px;
+max-heigh: .9px;
+padding: 3px;
+background-color: #elddda;}
+
+
+dd{
+    overflow: scroll;
+}

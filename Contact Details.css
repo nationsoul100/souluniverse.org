@@ -1,0 +1,16 @@
+.hover-clickable-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Indicates it's clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hover-clickable-box:hover {
+  background-color: #ADD8E6; /* Lighter blue on hover */
+  border-color: darkblue;
+}
