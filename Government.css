@@ -14,20 +14,22 @@ background-color: #ee5d80;}
 strong{
     text-decoration: underline;
 }
-
 p {
     background-color: lightblue; /* Sets the background color */
     padding: 20px;              /* Sets padding on all sides */
     border: 1px solid steelblue; /* Optional: adds a border for visual clarity */
 }
 
-
+b::first-letter {
+font-size: 200%;
+font-weight: bold;
+color: #8A2BE2;
+}
 dd {
   float: left;
   width: 33.33%;
   padding: 50px;
-}...
-
+}
 
 dd {
 min-height: .5px;
