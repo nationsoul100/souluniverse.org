@@ -1,0 +1,31 @@
+/* General box-sizing */
+* {
+ box-sizing: border-box;
+}
+/* Style the input field */
+search-form input[type="text"] {
+ padding: 10px;
+ font-size: 17px;
+ border: 1px solid #ccc;
+ width: 80%;
+ background: #f9f9f9;
+}
+/* Style the search button */
+search-form button {
+ width: 20%;
+ padding: 10px;
+ background: #2196F3;
+ color: white;
+ font-size: 17px;
+ border: none;
+ cursor: pointer;
+}
+search-form button:hover {
+ background: #0b7dda;
+}
+/* Clear floats */
+search-form::after {
+ content: "";
+ display: table;
+ clear: both;
+}
