@@ -31,12 +31,12 @@ LEO (Low Earth Orbit)	500–2,000 km altitude; faster, lower latency	Next-gen mo
 
 <b>B. Core Network Connectivity</b>
 •	Satellite bandwidth provider (GEO or LEO network)
-•	Hub teleport or gateway (on Earth) connecting to the internet or your central data center
+•	Hub teleport or gateway (on Earth) connecting to the internet or central data center
 •	Network management system to control QoS, latency, and encryption
 
 <br><br>
 <b> C. Base Station (RAN Layer)</b>
-•	4G/5G NodeB or gNodeB (depending on your design)
+•	4G/5G NodeB or gNodeB (depending on Founders design)
 •	Core network (EPC or 5GC if standalone)
 •	Synchronization and timing (GPS or GNSS, essential for cellular accuracy)
 
@@ -68,7 +68,7 @@ Here’s a realistic roadmap:
 <p><b>5. Legal and Spectrum Considerations</b>
 Before deploying, need:
 <br><br>
-•	Licensing from your national telecom authority (for uplink/downlink bands)<br><br>
+•	Licensing from Founders national telecom authority (for uplink/downlink bands)<br><br>
 •	Coordination with satellite operator<br><br>
 •	Security compliance for transmitting encrypted neuro-data internationally<br><br>
 
@@ -107,7 +107,7 @@ Ground/site (remote base station)<br><br>
 <b>Satellite Link & Provider</b>
 •	LEO (e.g., Starlink/OneWeb) for low-latency needs (real-time NSIS telemetry, AR/VR, closed-loop control).<br><br>
 •	GEO/MEO/Ka-Ku/C-band VSAT for large bulk throughput, broadcast, or highly reliable fixed links.<br><br>
-•	Teleport / Gateway: provider-operated ground station that routes traffic to your cloud or peering point.<br><br>
+•	Teleport / Gateway: provider-operated ground station that routes traffic to cloud or peering point.<br><br>
 <b>Core / Cloud</b>
 •	Edge gateway / EPC / 5GC: virtualized core (cloud or private DC) with secure peering to satellite gateway. Should support VPN, encryption (IPsec or MACsec), and policy control (PCRF/PCF).<br><br>
 •	Orchestration & NMS: OSS/BSS, monitoring (SNMP/NetFlow), and a satellite link manager (for fading, carrier failover).<br><br>
