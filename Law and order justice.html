@@ -1,6 +1,38 @@
 <html>
     <head>
         <title>Agriculture for civilians</title>
+<style>
+        /* The content is hidden by default using CSS */
+        .toggle-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .close-btn {
+            float: right;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 10px;
+        }
+    </style>
+
+
+
+
+
         <link rel="stylesheet" href="Law and order Justice.css">
         <a href="index.html" class="back-btn">⬅ Back to Home</a>
         <button onclick="history.go(-1)">Go Back</button>
@@ -78,6 +110,17 @@ Quantifying changes in hot temperatures extreme is key for developing adaption s
 
 
 <h1>Geothermal Renewable energy system</h1>
+<!-- The button to show the content -->
+    <button class="button" onclick="toggleDisplay('myContent')">Toggle Content</button>
+
+    <!-- The content div, initially hidden -->
+    <div id="myContent" class="toggle-content">
+        <!-- Close button inside the content -->
+        <span class="close-btn" onclick="hideContent('myContent')">&times;</span>
+
+
+
+
 <p> In a desert region planting a geothermal is very challenging task for the conditions in the open sun shine set area , and in condition of running whether becomes very crucial for work done,<br><br>
 In the initial first of state small amount of deploying geothermal energy 5 to 8 MW supplying that gives to all over houses training to build with small amount of populations ,<br><br> later slowly growth of population begins and other places for deploying takes 5 to 8 MW supply with millions of treaties can make use of significance enough power supply for the science technology, industrial areas.<br><br>
 Planting them close to the water system is becomes very important to function that works significant electric power supply with the heat conditions. Geothermal plants should be located near water sources to ensure efficient cooling and stable electricity generation in hot desert regions. Taking this to the house’s and working area has to maintains requires significant spatial planning for heat management. in a harsh heating weather conditions maintenance must keep checking one after a time proper,
@@ -147,10 +190,30 @@ Geothermal resources such as naturally occurring underground reservoirs of hot w
 
 
 
-
+</div>
 
 
 *******************************************************************************************************************************************************************************************************************************************************
-        </body>
+   <script>
+        // JavaScript function to toggle between 'block' and 'none' display
+        function toggleDisplay(elementId) {
+            var x = document.getElementById(elementId);
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        // JavaScript function to explicitly hide the content
+        function hideContent(elementId) {
+            document.getElementById(elementId).style.display = "none";
+        }
+    </script>     
+
+
+
+
+</body>
     </head>
 </html>

@@ -2,6 +2,41 @@
     <head>
         <body>
             <title>Science and Technology</title>
+<style>
+        /* The content is hidden by default using CSS */
+        .toggle-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .close-btn {
+            float: right;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 10px;
+        }
+            </style>
+
+
+
+
+
+
+
+
             <link rel="stylesheet" href="Science and Technology.css">
 			<a href="index.html" class="back-btn">⬅ Back to Home</a>
 			<button onclick="history.go(-1)">Go Back</button>
@@ -25,11 +60,23 @@
 <dd><p>These systems play a crucial role in sustainable water management by conserving freshwater, reducing pollution, and supporting economic growth through the reuse of water for irrigation, industrial processes, and more. 
 <br><br>	Some New Tecchnology bought in SOUL, Cleaning water Recycled System gives more effectively and will be used for neat and clean Moreover</p></dd>
 <dd><p>All Scientific Plants and trees will be grown here for the medicine purposes, all agricultural farming also done here like fruits and vegetables rice,wheat, cotton etc Grown and taken very carefully and used for the treaties and world.</p><hr />
-<h1><span style="color: rgba(142, 6, 6, 0.885)"><strong>Prototype is Described and Called: </strong></h1>	
-<h3>Sensory Substitution + Neural Interface Technology for blind persons who don’t see (Blind Person) and Neuro Sensory Intelligence System: Redefining Vision Beyond the Human Limit(Scientist uses for researching)</h3>
- <span style="color: darkgreen;">Explanation example parts:</span>
 
-	<p>Idea:
+
+
+
+	<h1><span style="color: rgba(142, 6, 6, 0.885)"><strong>Prototype is Described and Called: </strong></h1>	
+<h3>Sensory Substitution + Neural Interface Technology for blind persons who don’t see (Blind Person) and Neuro Sensory Intelligence System: Redefining Vision Beyond the Human Limit(Scientist uses for researching)</h3>
+ 
+
+<!-- The button to show the content -->
+    <button class="button" onclick="toggleDisplay('myContent')">Toggle Content</button>
+
+    <!-- The content div, initially hidden -->
+    <div id="myContent" class="toggle-content">
+        <!-- Close button inside the content -->
+        <span class="close-btn" onclick="hideContent('myContent')">&times;</span>
+        
+        <p>Idea:
 		
 “A blind person uses a system that scans surroundings and connects to human senses to replace sight.”<br><br>
 •	The person doesn’t “see” with eyes.<br><br>
@@ -285,6 +332,26 @@ o	The system nudges the brain into beneficial rhythms (e.g., increase alpha for 
 7.	Privacy & control<br><br>
 o	Local processing (offline), end-to-end encryption, user-controlled sharing and deletion.<br><br>
 
+    </div>
+
+   
+    
+
+    
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
 
 <p>This prototype helps on not only human vision in seeing and giving consciousness sensing, its helps on finding all kind of Research doing in many ways not even imagined before or ever ,still more this prototype do many more, it touch all beyond edge of the universe can do, see, and more ,we have explained only few. 
 
@@ -317,7 +384,22 @@ This article delves into the fascinating world of the deep sea, exploring its ec
  
 <span style="color: rgba(230, 66, 12, 0.799);">Still more scientific alerts, updates will do & we update you for next alerts we make.</span></dt>
 ***************************************************************************************************************************************************************************************************************************************
+<script>
+        // JavaScript function to toggle between 'block' and 'none' display
+        function toggleDisplay(elementId) {
+            var x = document.getElementById(elementId);
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
 
+        // JavaScript function to explicitly hide the content
+        function hideContent(elementId) {
+            document.getElementById(elementId).style.display = "none";
+        }
+    </script>
 
         </body>
     </head>

@@ -48,3 +48,28 @@ background-color: #elddda;}
 dd{
     overflow: scroll;
 }
+//* The content is hidden by default using CSS */
+        .toggle-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .close-btn {
+            float: right;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 10px;
+        }

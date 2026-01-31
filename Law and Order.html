@@ -1,13 +1,59 @@
 <html>
     <head>
         <title>Law Supported with Backhuwk neuro system NetworkBaseSystem</title>
+        <style>
+        /* The content is hidden by default using CSS */
+        .toggle-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .close-btn {
+            float: right;
+            cursor: pointer;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left: 10px;
+        }
+    </style>
+        
+        
+        
+        
+        
+        
         <link rel="stylesheet" href="Law and Order.css">
         
     </head> 
     <body>
         <a href="index.html" class="back-btn">⬅ Back to Home</a>
         <button onclick="history.go(-1)">Go Back</button>
-<h1>Law and order suported with : Backhuwk neurosystem NetworkBaseSystem Law Tecnical</h1>
+<h1>Law and order supported with : Backhuwk neurosystem NetworkBaseSystem Law Tecnical</h1>
+<!-- The button to show the content -->
+    <button class="button" onclick="toggleDisplay('myContent')">Toggle Content</button>
+
+    <!-- The content div, initially hidden -->
+    <div id="myContent" class="toggle-content">
+        <!-- Close button inside the content -->
+        <span class="close-btn" onclick="hideContent('myContent')">&times;</span>
+
+
+
+
+
+
 
 <b>Introducing very large-scale idea —Bringing about building a satellite-based backhaul system that</b><br><br> 
 <p>links a base station or global network node for NeuroSensory Intelligence System. what’s possible and need to make it real.<br><br>
@@ -238,7 +284,7 @@ These will shown to the technicians who are connected with our plans.
 
 After joining real Experts and Related Technicians will join wile explaining the Technology, we bring and Build, by used this NSIS(NeuroSensory Intelligence System) idea based Technology.
 
-
+</div>
 
 
 
@@ -303,6 +349,12 @@ Another powerful tool is open-source intelligence (OSINT). Governments monitor p
 </ol>
  <hr /><strong><span style="color: rgb(157, 0, 0)">Defence and security:</span></strong>
  
+
+
+
+
+
+ 
  <dd><p class="left-paragraph">The existence, stability, and prosperity in each country are tied to the ability to protect their people, fields, resources, and strategic interests from threats, both internal and external. From traditional armed conflict to modern cyber threats, the concept of security has developed significantly
 Implementing security and surveillance systems provides numerous benefits, significantly enhancing safety and security for both residential and commercial properties.<br><br> One of the primary advantages is crime deterrence.
 security cameras would prompt them to seek an alternative target. This demonstrates the effectiveness of surveillance systems in discouraging potential criminal activities
@@ -317,4 +369,20 @@ In addition to aiding law enforcement, surveillance systems foster a sense of se
 <hr />
 ***************************************************************************************************************************************************************************************************************************
 </div>
+<script>
+        // JavaScript function to toggle between 'block' and 'none' display
+        function toggleDisplay(elementId) {
+            var x = document.getElementById(elementId);
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        // JavaScript function to explicitly hide the content
+        function hideContent(elementId) {
+            document.getElementById(elementId).style.display = "none";
+        }
+    </script>
     </body>
